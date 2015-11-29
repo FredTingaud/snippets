@@ -6,6 +6,8 @@
 
 find_package(Qt5Widgets REQUIRED)
 
+set(CMAKE_AUTOMOC ON)
+
 if(WIN32)
   # Use classic main declaration and get rid of the console.
   set(QT_USE_QTMAIN TRUE)
